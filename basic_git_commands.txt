@@ -32,4 +32,5 @@ git init                                          ->making normal folder into gi
 git remote add origin <--path-->                  ->create local folder make it as git repo and create repo in git hub and connect
 git pull origin main                              -> to pull the updates from the remote to local
 git push origin <--branch name-->                 -> from local git to the specified git hub branch
-pull request and pull request conflict?? ->
+pull request and pull request conflict?? ->  "git merge main will not work when we don't have a permission in such scenario we use pull
+                                               request"
