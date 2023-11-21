@@ -18,7 +18,7 @@ git branch -a                            ->to list out all the branches in the r
 git remote add origin <--path-->         ->to set up the new origin to work with
 git diff <--branch_name-->               ->gives the differences of the two branches
 git branch -M main                       ->to rename branch 
-git checkout <--branchname-->            ->to navigate 
+git checkout <--branchname-->            ->to switch over branches 
 git checkout -b <--new branch name-->    -> to create new branch name
 git branch -d <--branch name-->          ->to delete branch name 
 git merge main 
