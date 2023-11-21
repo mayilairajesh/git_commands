@@ -8,13 +8,14 @@ git config --global "user.name"
 git config --global user.email "@**"
 git config --list git clone <--link-->
 #### git_commands
-git pull                              ->Any recent updates in remote will be copied to local
-git status                            ->status of the file 
-git add <--file name--> or git add .
-git commit -m "some msg" 
-git push origin main
-git branch                               -> to check branch
+git pull                                 ->Any recent updates in remote will be copied to local
+git status                               ->status of the staging area 
+git add <--file name--> or git add .     ->add the creating/modified files to the staging area 
+git commit -m "some msg"                 ->from staging area to local git environment 
+git push origin main                     -> from local git to git hub
+git branch                               -> to check the current working branch
 git branch -a                            ->to check file in the branch
+git remote add origin <--path-->         ->to set up the new origin to work with
 git diff <--branch_name-->               ->gives the differences of the two branches
 git branch -M main                       ->to rename branch 
 git checkout <--branchname-->            ->to navigate 
